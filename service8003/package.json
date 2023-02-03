@@ -7,7 +7,7 @@
     "typescript": "^4.9.5"
   },
   "name": "weather-app-service-3",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "main": "server.js",
   "scripts": {
     "start": "tsc && node dist/server.js",
