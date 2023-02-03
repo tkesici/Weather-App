@@ -1,6 +1,6 @@
 {
   "name": "weather-app-service-0",
-  "version": "1.0.22",
+  "version": "1.0.23",
   "description": "<img src=\"https://user-images.githubusercontent.com/72649005/213923378-e4e648f8-fa44-4c93-abbb-1dce5660ee8c.png\" width=\"200\" height=\"120\" /> <br>",
   "main": "server.js",
   "dependencies": {
