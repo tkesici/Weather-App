@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: weatherapp-8000
+  labels:
+    app: weatherapp-8000
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: weatherapp-8000
+  template:
+    metadata:
+      labels:
+        app: weatherapp-8000
+    spec:
+      containers:
+      - name: weatherapp-8000
+        image: localhost:32000/8000:latest
+        ports:
+        - containerPort: 8000

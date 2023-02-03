@@ -1,0 +1,16 @@
+{
+  "include": ["src/**/*.ts"],
+  "compilerOptions": {
+    "outDir": "./dist",
+    "types": [ "node" ],
+    "typeRoots": [ "../node_modules/@types" ],
+    "target": "ES2020",                                  
+    "module": "commonjs",                               
+    "allowJs": true,                                
+    "checkJs": true,                              
+    "esModuleInterop": true,                   
+    "forceConsistentCasingInFileNames": true,           
+    "strict": false,                                      
+    "skipLibCheck": true                                
+  }
+}

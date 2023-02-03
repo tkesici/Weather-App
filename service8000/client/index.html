@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+</head>
+<body>
+    <h1>Weather App</h1>
+    <p>Send request from endpoint 1</p>
+    <form action="/weather_8000_1" method="post">
+        <label for="cityInput">City name: </label>
+        <input type="text" name="cityName" placeholder="Enter name of your city" id="cityInput">
+        <button type="submit">submit</button>
+    </form>
+    <p>Send request from endpoint 2</p>
+    <form action="/weather_8000_2" method="post">
+        <label for="cityInput">City name: </label>
+        <input type="text" name="cityName" placeholder="Enter name of your city" id="cityInput">
+        <button type="submit">submit</button>
+    </form>
+    <h1>Send request to the weatherapp:8002</h1>
+    <form action="/request8002" method="post">
+        <button type="submit">submit</button>
+    </form>
+</body>
+</html>
